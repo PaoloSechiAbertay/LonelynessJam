@@ -1,15 +1,18 @@
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
-    private Vector3 mousePos;
+    [SerializeField] private Vector3 mousePos;
 
     RaycastHit2D raycastHit2D;
     Transform preHoverObject, nextHoverObject;
 
     public bool mouseDown;
+
+    public Wallet wallet;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
@@ -52,7 +55,12 @@ public class PlayerController : MonoBehaviour
         {
             //Set Cursor mode to hovering
 
-           nextHoverObject.GetComponent<SpriteRenderer>().color = Color.red;
+            nextHoverObject.GetComponent<SpriteRenderer>().color = Color.red;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                SellItem();
+            }
 
 
 
@@ -71,7 +79,16 @@ public class PlayerController : MonoBehaviour
 
 
             }
-        
+
         }
     }
-}
+
+        public void SellItem()
+        {
+        Destroy(nextHoverObject.gameObject);
+
+        wallet.walletTotal += 1;
+        }
+
+    }
+
