@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Vector3 mousePos;
+    public Vector3 mousePos;
 
     RaycastHit2D raycastHit2D;
     Transform preHoverObject, nextHoverObject;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
-
+        GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Sellable");
     }
 
     // Update is called once per frame
@@ -55,13 +55,15 @@ public class PlayerController : MonoBehaviour
         {
             //Set Cursor mode to hovering
 
-            nextHoverObject.GetComponent<SpriteRenderer>().color = Color.red;
-
-            if (Input.GetMouseButtonDown(0))
+            if (nextHoverObject.gameObject.tag == "Sellable")
             {
-                SellItem();
-            }
+                nextHoverObject.GetComponent<SpriteRenderer>().color = Color.red;
 
+                if (Input.GetMouseButtonDown(0))
+                {
+                    SellItem();
+                }
+            }
 
 
             //Check if the object hovered before and after are equal to each other, if not, change to normal cursor
