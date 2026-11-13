@@ -21,10 +21,10 @@ public class camerafollow : MonoBehaviour
         Vector3 worldPosition = camera.ScreenToWorldPoint(Input.mousePosition);
         Debug.Log(worldPosition);
 
-        if (worldPosition.x >= 7 || worldPosition.x <= -7 && transform.position.x == -2|| worldPosition.y >= 0 || worldPosition.y <= -3)
-        { 
-        transform.position = Vector3.SmoothDamp(transform.position, worldPosition, ref velocity, smoothTime);
-        }
+        //if (worldPosition.x >= 7 || worldPosition.x <= -7 && transform.position.x == -2|| worldPosition.y >= 0 || worldPosition.y <= -3)
+
+            transform.position = Vector3.SmoothDamp(transform.position, worldPosition, ref velocity, smoothTime);
+
 
         MouseCamLock();
 
@@ -32,18 +32,15 @@ public class camerafollow : MonoBehaviour
 
     void MouseCamLock()
     {
-        if (transform.position.x > 2)
+        if (transform.position.x != 2)
         {
-            transform.position = new Vector3(2, transform.position.y, transform.position.z);
+            transform.position = new Vector3(0, transform.position.y, transform.position.z);
         }
         if (transform.position.y > 1)
         {
             transform.position = new Vector3(transform.position.x, 1, transform.position.z);
         }
-        if (transform.position.x < -2)
-        {
-            transform.position = new Vector3(-2, transform.position.y, transform.position.z);
-        }
+
         if (transform.position.y < -4)
         {
             transform.position = new Vector3(transform.position.x, -4, transform.position.z);
