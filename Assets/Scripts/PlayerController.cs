@@ -9,12 +9,12 @@ public class PlayerController : MonoBehaviour
     public Vector3 mousePos;
 
     RaycastHit2D raycastHit2D;
-    Transform preHoverObject, nextHoverObject;
+    public Transform preHoverObject, nextHoverObject;
 
     public bool mouseDown;
 
     public TMP_Text descriptionText;
-    public int number = 2;
+    public hoverText hoverText;
 
     public Wallet wallet;
 
@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
 
             //Check if the object hovered before and after are equal to each other, if not, change to normal cursor
-            if (preHoverObject && nextHoverObject && preHoverObject.GetEntityId() != nextHoverObject.GetEntityId())
+            if (preHoverObject && nextHoverObject && preHoverObject.GetEntityId() != nextHoverObject.GetEntityId() && preHoverObject.gameObject.tag != "ui")
             {
                 preHoverObject.GetComponent<SpriteRenderer>().color = Color.white;
                 HideText();
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
         {
             HideText();
 
-            if (preHoverObject)
+            if (preHoverObject && preHoverObject.gameObject.tag != "ui")
             {
                 preHoverObject.GetComponent<SpriteRenderer>().color = Color.white;
 
@@ -97,13 +97,13 @@ public class PlayerController : MonoBehaviour
         {
         Destroy(nextHoverObject.gameObject);
 
-        wallet.walletTotal += 1;
+        wallet.walletTotal += hoverText.number;
         }
 
     public void ShowText()
     {
         descriptionText.gameObject.SetActive(true);
-        descriptionText.text = "This sells for " + number + " tokens";
+        descriptionText.text = "This sells for " + hoverText.number + " tokens";
         descriptionText.transform.position = mousePos - new Vector3(-120, 80, 0);
     }
 
