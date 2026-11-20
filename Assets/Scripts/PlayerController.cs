@@ -1,6 +1,8 @@
 using JetBrains.Annotations;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -14,7 +16,14 @@ public class PlayerController : MonoBehaviour
     public bool mouseDown;
 
     public TMP_Text descriptionText;
+    public TMP_Text loreText;
     public hoverText hoverText;
+    public GameObject hoverBackground;
+
+    public Object textBubble;
+    public Object playerTextBubble;
+
+    bool textSpawned;
 
     public Wallet wallet;
 
@@ -22,6 +31,7 @@ public class PlayerController : MonoBehaviour
     public void Start()
     {
         GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Sellable");
+        
     }
 
     // Update is called once per frame
@@ -32,13 +42,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             mouseDown = true;
-            Debug.Log(mouseDown);
         }
         else
         {
             mouseDown = false;
         }
 
+        payToken();
+        testPlayer();
     }
 
 
@@ -100,17 +111,109 @@ public class PlayerController : MonoBehaviour
         wallet.walletTotal += hoverText.number;
         }
 
+
+    public void testPlayer()
+    {
+        if (nextHoverObject.parent.name == "playerTest" && Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("meow");
+            spawnPlayerText();
+        }
+    }
+
+    public void payToken()
+    {
+        if (nextHoverObject.parent.name == "PayToken" && Input.GetMouseButtonDown(0))
+        {
+            wallet.walletTotal -= 1;
+
+            spawnAiText();
+        }
+    }
+
     public void ShowText()
     {
         descriptionText.gameObject.SetActive(true);
         descriptionText.text = "This sells for " + hoverText.number + " tokens";
         descriptionText.transform.position = mousePos - new Vector3(-120, 80, 0);
+
+
+        loreText.gameObject.SetActive(true);
+        loreText.text = "blah blah blah";
+        loreText.transform.position = mousePos - new Vector3(-120, 240, 0);
     }
 
     public void HideText()
     {
         descriptionText.gameObject.SetActive(false);
+        loreText.gameObject.SetActive(false);
+        hoverBackground.gameObject.SetActive(false);
     }
+
+    public void spawnAiText()
+    {
+        if (!textSpawned)
+        {
+            Instantiate(textBubble, new Vector3(-0.931f, -6, -4.2f), Quaternion.identity);
+            textSpawned = true;
+        }
+        else
+        {
+            GameObject[] gameObjectArray2 = GameObject.FindGameObjectsWithTag("textBubbles");
+            int numberOfBubbles = gameObjectArray2.Length;
+            Debug.Log(numberOfBubbles);
+
+            for (int i = 0; i < numberOfBubbles; i++)
+            {
+                gameObjectArray2[i].transform.position += new Vector3(0, 1, 0);
+            }
+
+            if (numberOfBubbles >= 4)
+            {
+
+                DestroyImmediate(gameObjectArray2[0], true);
+                Debug.Log("destroyed");
+            }
+
+
+
+            Object textBubblePopup = Instantiate(textBubble, new Vector3(-0.931f, (-6), -4.2f), Quaternion.identity);
+
+        }
+    }
+        public void spawnPlayerText()
+    {
+        if (!textSpawned)
+        {
+            Instantiate(playerTextBubble, new Vector3(2.9f, -6, -4.2f), Quaternion.identity);
+            textSpawned = true;
+        }
+        else
+        {
+            GameObject[] gameObjectArray2 = GameObject.FindGameObjectsWithTag("textBubbles");
+            int numberOfBubbles = gameObjectArray2.Length;
+            Debug.Log(numberOfBubbles);
+
+            for (int i = 0; i < numberOfBubbles; i++)
+            {
+                gameObjectArray2[i].transform.position += new Vector3(0, 1, 0);
+            }
+
+            if (numberOfBubbles >= 4)
+            {
+
+                DestroyImmediate(gameObjectArray2[0], true);
+                Debug.Log("destroyed");
+            }
+
+
+
+            Object textBubblePopup = Instantiate(playerTextBubble, new Vector3(2.9f, (-6), -4.2f), Quaternion.identity);
+
+        }
+    }
+    
+
 
 }
 

@@ -9,7 +9,7 @@ public class Wallet : MonoBehaviour
 
     void Start()
     {
-        
+        walletTotal = 5;
     }
 
     // Update is called once per frame

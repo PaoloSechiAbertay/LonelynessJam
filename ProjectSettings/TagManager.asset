@@ -9,6 +9,7 @@ TagManager:
   - price3
   - price2
   - ui
+  - textBubbles
   layers:
   - Default
   - TransparentFX
