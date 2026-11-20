@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using System.Collections;
+using AK.Wwise;
 
 
 public class camerafollow : MonoBehaviour
@@ -14,6 +15,8 @@ public class camerafollow : MonoBehaviour
 
     Coroutine cameraMove;
 
+    public AK.Wwise.Event testsound1;
+
     Camera camera;
 
     public GameObject triggerbox1;
@@ -26,9 +29,6 @@ public class camerafollow : MonoBehaviour
     {
         camera = GetComponent<Camera>();
 
-        desiredPosition = new Vector3(0, 2.55f, -10) + offset;
-        desiredPosition2 = new Vector3(0, -5, -10) + offset;
-
     }
 
     // Update is called once per frame
@@ -37,30 +37,23 @@ public class camerafollow : MonoBehaviour
 
         if (playerController.nextHoverObject.name == "CameraTriggerbox")
         {
-            StartCoroutine(cameraMove());
-
-        }
-
-        if (playerController.nextHoverObject.name == "CameraTriggerbox 2")
-        {
-            StartCoroutine(cameraMove2());
-
-        }
-
-        IEnumerator cameraMove()
-        {
-            yield return null;
-            transform.position = Vector3.SmoothDamp(transform.position, desiredPosition, ref Velocity, smoothTime);
-            Velocity = new Vector3(0, 10, 0);
+            transform.position = new Vector3(0, -5, -10);
             triggerbox1.SetActive(false);
             triggerbox2.SetActive(true);
         }
 
-        IEnumerator cameraMove2()
+        if (playerController.nextHoverObject.name == "Minimize" && Input.GetMouseButtonDown(0))
         {
-            yield return null;
-            transform.position = Vector3.SmoothDamp(transform.position, desiredPosition2, ref Velocity, smoothTime);
-            Velocity = new Vector3(0, 10, 0);
+            transform.position = new Vector3(0, 2.55f, -10);
+            triggerbox1.SetActive(true);
+            triggerbox2.SetActive(false);
+
+            testsound1.Post(gameObject);
+        }
+
+        if (playerController.nextHoverObject.name == "CameraTriggerbox 2")
+        {
+            transform.position = new Vector3(0, 2.55f, -10);
             triggerbox1.SetActive(true);
             triggerbox2.SetActive(false);
         }

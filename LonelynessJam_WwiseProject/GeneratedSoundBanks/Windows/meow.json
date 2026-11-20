@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2590778245",
+    "Type": "User",
+    "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
+    "Language": "SFX",
+    "Hash": "{715F1A57-5CB6-221D-1353-53215BD7D295}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
+    "ShortName": "meow",
+    "Path": "meow.bnk",
+    "Media": [
+     {
+      "Id": "273784619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jam2Audio_PhoneText.wav",
+      "CachePath": "F0/{F013F920-CA4C-7EA9-F2B7-0A70DA1A6FF1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test",
+      "GUID": "{5DD24FBD-1C20-4E01-9444-47933E491B26}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0449433",
+      "DurationMax": "1.0449433",
+      "MediaRefs": [
+       {
+        "Id": "273784619"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F8B6579-7182-561F-DEE3-7D68155F22AD}"
+ }
+}

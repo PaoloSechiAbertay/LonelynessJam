@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8397f0d2f11f847baa808a8a7710dd, type: 3}
+  m_Name: 9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseBankReference
+  objectName: meow
+  id: 2590778245
+  guid: 9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD
