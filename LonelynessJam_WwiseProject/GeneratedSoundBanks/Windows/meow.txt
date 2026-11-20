@@ -2,5 +2,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	3157003241	Test			\Default Work Unit\Test	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7225121	Ui_Decline	.cache\C4\{C4F327AF-410D-6563-84F7-5E199A8B7A3A}.wem		\Containers\Default Work Unit\Ui\Ui_Decline		15212
+	30253505	Ai Chat-004	.cache\69\{693CE716-9090-C383-28A6-9B715C2334A2}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-004		9234
+	97895705	Amb_SportWhistle	.cache\0F\{0FFF0350-4BB3-4129-E9A4-86845C674A2C}.wem		\Containers\Default Work Unit\Ambient\Amb_SportWhistle		528612
+	106912783	Sell Photo	.cache\85\{852A4919-6403-5C10-56F7-49B794007FD0}.wem		\Containers\Default Work Unit\Sell SFX\Sell Photo		336088
+	111451505	Amb_Family Outside	.cache\72\{72851BC3-577A-2895-A62E-7ACC65E38F6C}.wem		\Containers\Default Work Unit\Ambient\Amb_Family Outside		690740
+	147512207	Sell Film	.cache\72\{72AB90DF-8695-1EE8-3B65-38E1142E0908}.wem		\Containers\Default Work Unit\Sell SFX\Sell Film		318284
+	227339198	Ai Chat-002	.cache\5E\{5ED3AEF9-67A0-BD0F-6D75-1A01A88E8FF0}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-002		9292
+	227837996	PhoneText	.cache\2B\{2BBB7F9C-B6D7-B89F-BB51-2A87DCCDFE78}.wem		\Containers\Default Work Unit\PhoneText		92260
+	235332240	Ai Chat-001	.cache\1E\{1E765E16-AEBA-FB81-7F1E-932398212E51}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-001		9278
 	273784619	Test	.cache\F0\{F013F920-CA4C-7EA9-F2B7-0A70DA1A6FF1}.wem		\Containers\Default Work Unit\Test		92260
+	295577522	Sell Teddy	.cache\FC\{FCE749C1-7B29-F8FD-1CA1-BE55CCCB639A}.wem		\Containers\Default Work Unit\Sell SFX\Sell Teddy		76262
+	299422220	Ai Chat-003	.cache\E7\{E78DDC5F-71F6-F335-5682-96CEB26FDD52}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-003		9310
+	341165722	Ui_Accept	.cache\24\{24F12215-71A0-DABD-0EA3-F6AC11ABD40B}.wem		\Containers\Default Work Unit\Ui\Ui_Accept		21860
+	360435552	Amb_PopCorn	.cache\27\{275E35FE-0342-D50F-B6AF-C4FE56785A56}.wem		\Containers\Default Work Unit\Ambient\Amb_PopCorn		683650
+	381838736	Amb_TeddyLaugh	.cache\37\{37808BFE-429C-E881-1983-586E38C283D4}.wem		\Containers\Default Work Unit\Ambient\Amb_TeddyLaugh		716652
+	393992881	Sell Mirror	.cache\8D\{8DD7F9D9-6322-077F-F735-BA6E1714A9A4}.wem		\Containers\Default Work Unit\Sell SFX\Sell Mirror		90240
+	432217338	Ai Chat-005	.cache\72\{7234E050-603D-FACA-85A1-1AD85144C936}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-005		9316
+	603908434	Amb_BaseTone	.cache\70\{703E2500-9666-80C7-6021-FD130878F427}.wem		\Containers\Default Work Unit\Ambient\Amb_BaseTone		3704616
+	612420998	Sell Diary	.cache\DE\{DE4BFE92-8826-822C-BC4B-54A1F4CED296}.wem		\Containers\Default Work Unit\Sell SFX\Sell Diary		109948
+	764482788	Amb_PageRusttle	.cache\B4\{B462056D-741E-C96E-14F3-8DB34B76144D}.wem		\Containers\Default Work Unit\Ambient\Amb_PageRusttle		637068
+	879741130	Amb_MirrorTalk	.cache\8A\{8A6785E6-9C8F-D4EB-F708-DFAE00B56B5C}.wem		\Containers\Default Work Unit\Ambient\Amb_MirrorTalk		705912
+	1042971780	Sell Sport	.cache\5D\{5D1176A6-A07F-867B-1418-A5EBFC31A307}.wem		\Containers\Default Work Unit\Sell SFX\Sell Sport		353264
+	1061118261	Ui_MessageClick	.cache\B0\{B0AE48C4-B3BD-24F1-BDF0-A79EF49A52DF}.wem		\Containers\Default Work Unit\Ui\Ui_MessageClick		5438
 
