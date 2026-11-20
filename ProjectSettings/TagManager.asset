@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Sellable
+  - price1
+  - price3
+  - price2
+  - ui
   layers:
   - Default
   - TransparentFX
