@@ -10,11 +10,83 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{715F1A57-5CB6-221D-1353-53215BD7D295}",
+    "Hash": "{F1AD8707-CAB4-3D23-F625-2CF037B5EF39}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
     "Media": [
+     {
+      "Id": "7225121",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "03-Ui_Decline.wav",
+      "CachePath": "C4/{C4F327AF-410D-6563-84F7-5E199A8B7A3A}.wem"
+     },
+     {
+      "Id": "30253505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "04-Ai Chat-004.wav",
+      "CachePath": "69/{693CE716-9090-C383-28A6-9B715C2334A2}.wem"
+     },
+     {
+      "Id": "97895705",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_SportWhistle.wav",
+      "CachePath": "0F/{0FFF0350-4BB3-4129-E9A4-86845C674A2C}.wem"
+     },
+     {
+      "Id": "106912783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Photo.wav",
+      "CachePath": "85/{852A4919-6403-5C10-56F7-49B794007FD0}.wem"
+     },
+     {
+      "Id": "111451505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_Family Outside.wav",
+      "CachePath": "72/{72851BC3-577A-2895-A62E-7ACC65E38F6C}.wem"
+     },
+     {
+      "Id": "147512207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Film.wav",
+      "CachePath": "72/{72AB90DF-8695-1EE8-3B65-38E1142E0908}.wem"
+     },
+     {
+      "Id": "227339198",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "04-Ai Chat-002.wav",
+      "CachePath": "5E/{5ED3AEF9-67A0-BD0F-6D75-1A01A88E8FF0}.wem"
+     },
+     {
+      "Id": "227837996",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "02-PhoneText.wav",
+      "CachePath": "2B/{2BBB7F9C-B6D7-B89F-BB51-2A87DCCDFE78}.wem"
+     },
+     {
+      "Id": "235332240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "04-Ai Chat-001.wav",
+      "CachePath": "1E/{1E765E16-AEBA-FB81-7F1E-932398212E51}.wem"
+     },
      {
       "Id": "273784619",
       "Language": "SFX",
@@ -22,6 +94,110 @@
       "Location": "Memory",
       "ShortName": "Jam2Audio_PhoneText.wav",
       "CachePath": "F0/{F013F920-CA4C-7EA9-F2B7-0A70DA1A6FF1}.wem"
+     },
+     {
+      "Id": "295577522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Teddy.wav",
+      "CachePath": "FC/{FCE749C1-7B29-F8FD-1CA1-BE55CCCB639A}.wem"
+     },
+     {
+      "Id": "299422220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "04-Ai Chat-003.wav",
+      "CachePath": "E7/{E78DDC5F-71F6-F335-5682-96CEB26FDD52}.wem"
+     },
+     {
+      "Id": "341165722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "03-Ui_Accept.wav",
+      "CachePath": "24/{24F12215-71A0-DABD-0EA3-F6AC11ABD40B}.wem"
+     },
+     {
+      "Id": "360435552",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_PopCorn.wav",
+      "CachePath": "27/{275E35FE-0342-D50F-B6AF-C4FE56785A56}.wem"
+     },
+     {
+      "Id": "381838736",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_TeddyLaugh.wav",
+      "CachePath": "37/{37808BFE-429C-E881-1983-586E38C283D4}.wem"
+     },
+     {
+      "Id": "393992881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Mirror.wav",
+      "CachePath": "8D/{8DD7F9D9-6322-077F-F735-BA6E1714A9A4}.wem"
+     },
+     {
+      "Id": "432217338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "04-Ai Chat-005.wav",
+      "CachePath": "72/{7234E050-603D-FACA-85A1-1AD85144C936}.wem"
+     },
+     {
+      "Id": "603908434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_BaseTone.wav",
+      "CachePath": "70/{703E2500-9666-80C7-6021-FD130878F427}.wem"
+     },
+     {
+      "Id": "612420998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Diary.wav",
+      "CachePath": "DE/{DE4BFE92-8826-822C-BC4B-54A1F4CED296}.wem"
+     },
+     {
+      "Id": "764482788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_PageRusttle.wav",
+      "CachePath": "B4/{B462056D-741E-C96E-14F3-8DB34B76144D}.wem"
+     },
+     {
+      "Id": "879741130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_MirrorTalk.wav",
+      "CachePath": "8A/{8A6785E6-9C8F-D4EB-F708-DFAE00B56B5C}.wem"
+     },
+     {
+      "Id": "1042971780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "05-Item Sold-Sell Sport.wav",
+      "CachePath": "5D/{5D1176A6-A07F-867B-1418-A5EBFC31A307}.wem"
+     },
+     {
+      "Id": "1061118261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "03-Ui_VN Click.wav",
+      "CachePath": "B0/{B0AE48C4-B3BD-24F1-BDF0-A79EF49A52DF}.wem"
      }
     ],
     "Events": [
@@ -42,6 +218,6 @@
     ]
    }
   ],
-  "FileHash": "{7F8B6579-7182-561F-DEE3-7D68155F22AD}"
+  "FileHash": "{954A5408-523B-286E-4300-8075FCE79F5C}"
  }
 }
