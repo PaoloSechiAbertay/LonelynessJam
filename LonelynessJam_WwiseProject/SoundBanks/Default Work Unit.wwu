@@ -5,7 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="meow" ID="{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ui" ID="{E8C2921A-F10B-424B-9776-E7CDD2151B7B}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ai Chat" ID="{E16F17F7-A403-4278-9C2F-010FCC002481}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell SFX" ID="{EC7DEE28-B751-4451-8BED-C26D5D0B8438}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{B1FDD0B2-CEB0-448B-B13F-E13DEDEDE5EA}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Test" ID="{4A448A5A-6391-481F-9E06-7DFB692E6D36}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test" ID="{5DD24FBD-1C20-4E01-9444-47933E491B26}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient" ID="{332F1138-7718-4F1E-BAF6-6C5002DFD955}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PhoneText" ID="{7D49D403-D2BB-4F6D-986B-1334C760BB89}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
