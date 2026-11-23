@@ -184,6 +184,21 @@
 				<Folder Name="Sell SFX" ID="{EC7DEE28-B751-4451-8BED-C26D5D0B8438}" ShortID="587747431">
 					<ChildrenList>
 						<Sound Name="Sell Diary" ID="{0F94E84A-0C94-418D-B81F-0C53234638C9}" ShortID="571239472">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -456,7 +471,34 @@
 				</RandomSequenceContainer>
 				<Folder Name="Ui" ID="{E8C2921A-F10B-424B-9776-E7CDD2151B7B}" ShortID="682707694">
 					<ChildrenList>
-						<Sound Name="Ui_Accept" ID="{EC5F7EA8-A8CA-4399-A6F9-2C252C6A9CC4}" ShortID="447499662">
+						<Sound Name="Ui_Decline" ID="{EC5F7EA8-A8CA-4399-A6F9-2C252C6A9CC4}" ShortID="447499662">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{92BD7055-42D9-46D7-AC72-BA4E07CAEB7A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -467,6 +509,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="03-Ui_Accept" ID="{026540E2-636C-4500-A647-3F21E6EDE532}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01326"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0165"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>03-Ui_Accept.wav</AudioFile>
 									<MediaIDList>
@@ -478,7 +525,34 @@
 								<ActiveSource Name="03-Ui_Accept" ID="{026540E2-636C-4500-A647-3F21E6EDE532}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Ui_Decline" ID="{A02C4C84-9113-4A9C-955A-4D68BC4A17CE}" ShortID="487008969">
+						<Sound Name="Ui_Accept" ID="{A02C4C84-9113-4A9C-955A-4D68BC4A17CE}" ShortID="487008969">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A79C84DA-D641-47AE-AC93-CC93F9332C6F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -489,6 +563,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="03-Ui_Decline" ID="{3AFF2D06-34C3-4B7D-83E1-40A0E93B4315}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01125"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.01392"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00243"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.14794"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>03-Ui_Decline.wav</AudioFile>
 									<MediaIDList>
@@ -549,6 +630,22 @@
 				<Folder Name="Ambient" ID="{332F1138-7718-4F1E-BAF6-6C5002DFD955}" ShortID="657897049">
 					<ChildrenList>
 						<Sound Name="Amb_BaseTone" ID="{271F0239-5C21-453C-9B96-FD53F282E635}" ShortID="682040617">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -570,7 +667,22 @@
 								<ActiveSource Name="01-Amb_BaseTone" ID="{3A9207E2-34E2-42FB-858A-595CD593905A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_Family Outside" ID="{0F5A7A24-D1B1-484A-86B9-3B00BD4D2751}" ShortID="776058287">
+						<RandomSequenceContainer Name="Amb_Rand" ID="{0A93D8C4-CE4A-40D8-8EF6-AF5F3465733C}" ShortID="317708166">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -580,7 +692,334 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_Family Outside" ID="{B8861800-1725-410C-A952-1450B2690B56}">
+								<Sound Name="Amb_SportWhistle" ID="{5B39A6C2-96D7-4B6F-B1EE-594CA67D8009}" ShortID="376812277">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_SportWhistle" ID="{8E7EC804-150D-4C6D-85FD-809EB7EDA53E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.26978"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.24682"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.21812"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.31177"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_SportWhistle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="47448260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_SportWhistle" ID="{8E7EC804-150D-4C6D-85FD-809EB7EDA53E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_MirrorTalk" ID="{83D65CAE-897B-4284-9D3D-E57B5BE90E17}" ShortID="477192025">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_MirrorTalk" ID="{91AF62BC-DB44-41B2-A522-E24A65866846}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.84317"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.83553"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.68242"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_MirrorTalk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="538237206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_MirrorTalk" ID="{91AF62BC-DB44-41B2-A522-E24A65866846}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_PageRusttle" ID="{B9C8EAD7-8233-48C9-BFC3-205EFCD3FDC8}" ShortID="958276866">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_PageRusttle" ID="{08D49BB6-9791-45B4-AE35-AE1F60CEC5CE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.46356"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.62958"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.58808"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_PageRusttle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610187034"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_PageRusttle" ID="{08D49BB6-9791-45B4-AE35-AE1F60CEC5CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_PopCorn" ID="{F21E2EF6-E797-4DDA-8594-B1205E1A5C70}" ShortID="1057436499">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_PopCorn" ID="{F5D343DE-A8C3-4B30-94D2-FA4989B22ECE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.6384"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.79439"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.3191"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_PopCorn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="803829793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_PopCorn" ID="{F5D343DE-A8C3-4B30-94D2-FA4989B22ECE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_Family Outside" ID="{0F5A7A24-D1B1-484A-86B9-3B00BD4D2751}" ShortID="776058287">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>50.001</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_Family Outside" ID="{B8861800-1725-410C-A952-1450B2690B56}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.65251"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.86254"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.43501"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_Family Outside.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="916881854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_Family Outside" ID="{B8861800-1725-410C-A952-1450B2690B56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_TeddyLaugh" ID="{FA0CB362-C98B-485E-9C36-B58D776521FC}" ShortID="412382159">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="01-Amb_TeddyLaugh" ID="{67653B1A-9211-4745-AD7C-DFBBA04CC8EB}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.05833"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.52919"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.64587"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>01-Amb_TeddyLaugh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721285916"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="01-Amb_TeddyLaugh" ID="{67653B1A-9211-4745-AD7C-DFBBA04CC8EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{B6A50AC4-82F3-4C8C-8533-1477B87FC4DF}" ShortID="1033752800">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Amb_Rand_Volume" ID="{255DCE05-C2AE-4409-80CE-212A65F86038}" WorkUnitID="{ABE06D2C-E888-4FA0-829F-90E841B4E5D1}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3E686ADF-3DE1-421E-8489-ECE5E8E59DBE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="Amb_Family Outside" ID="{162C8649-85AB-41F5-B71C-4DF9FB07FEBB}" ShortID="276580392">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="01-Amb_Family Outside" ID="{048E016D-6400-438F-A5B4-E3BB5AD2C02D}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_Family Outside.wav</AudioFile>
 									<MediaIDList>
@@ -588,11 +1027,37 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{00943AEA-A92D-4DE5-9519-3DC0B166CC20}" ShortID="743665895">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList/>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_Family Outside" ID="{B8861800-1725-410C-A952-1450B2690B56}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_Family Outside" ID="{048E016D-6400-438F-A5B4-E3BB5AD2C02D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_MirrorTalk" ID="{83D65CAE-897B-4284-9D3D-E57B5BE90E17}" ShortID="477192025">
+						<Sound Name="Amb_MirrorTalk" ID="{4CE2A4D5-7F41-47B0-8960-9BD1F984A7A4}" ShortID="663249962">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -602,7 +1067,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_MirrorTalk" ID="{91AF62BC-DB44-41B2-A522-E24A65866846}">
+								<AudioFileSource Name="01-Amb_MirrorTalk" ID="{DC0E2542-1697-45A2-80D9-8E92778F1CE5}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_MirrorTalk.wav</AudioFile>
 									<MediaIDList>
@@ -611,10 +1076,26 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_MirrorTalk" ID="{91AF62BC-DB44-41B2-A522-E24A65866846}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_MirrorTalk" ID="{DC0E2542-1697-45A2-80D9-8E92778F1CE5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_PageRusttle" ID="{B9C8EAD7-8233-48C9-BFC3-205EFCD3FDC8}" ShortID="958276866">
+						<Sound Name="Amb_PageRusttle" ID="{3BF75006-1C78-40BF-AA50-076D87DD6601}" ShortID="1016504924">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -624,7 +1105,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_PageRusttle" ID="{08D49BB6-9791-45B4-AE35-AE1F60CEC5CE}">
+								<AudioFileSource Name="01-Amb_PageRusttle" ID="{FC7C2247-768F-4969-80C6-9A64818BCA18}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_PageRusttle.wav</AudioFile>
 									<MediaIDList>
@@ -633,10 +1114,26 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_PageRusttle" ID="{08D49BB6-9791-45B4-AE35-AE1F60CEC5CE}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_PageRusttle" ID="{FC7C2247-768F-4969-80C6-9A64818BCA18}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_PopCorn" ID="{F21E2EF6-E797-4DDA-8594-B1205E1A5C70}" ShortID="1057436499">
+						<Sound Name="Amb_PopCorn" ID="{68BDDEC7-D147-4EB8-95A8-00021B125216}" ShortID="591389353">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -646,7 +1143,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_PopCorn" ID="{F5D343DE-A8C3-4B30-94D2-FA4989B22ECE}">
+								<AudioFileSource Name="01-Amb_PopCorn" ID="{EE6B10C1-7A98-442E-9D5E-C707CB1CF32B}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_PopCorn.wav</AudioFile>
 									<MediaIDList>
@@ -655,10 +1152,26 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_PopCorn" ID="{F5D343DE-A8C3-4B30-94D2-FA4989B22ECE}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_PopCorn" ID="{EE6B10C1-7A98-442E-9D5E-C707CB1CF32B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_SportWhistle" ID="{5B39A6C2-96D7-4B6F-B1EE-594CA67D8009}" ShortID="376812277">
+						<Sound Name="Amb_SportWhistle" ID="{A3CA6E34-5068-4425-AFA1-E9A25AEC6F70}" ShortID="1053688929">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -668,7 +1181,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_SportWhistle" ID="{8E7EC804-150D-4C6D-85FD-809EB7EDA53E}">
+								<AudioFileSource Name="01-Amb_SportWhistle" ID="{D1FBEB06-397E-468A-A3A0-9FD9B77FA4DE}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_SportWhistle.wav</AudioFile>
 									<MediaIDList>
@@ -677,10 +1190,26 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_SportWhistle" ID="{8E7EC804-150D-4C6D-85FD-809EB7EDA53E}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_SportWhistle" ID="{D1FBEB06-397E-468A-A3A0-9FD9B77FA4DE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Amb_TeddyLaugh" ID="{FA0CB362-C98B-485E-9C36-B58D776521FC}" ShortID="412382159">
+						<Sound Name="Amb_TeddyLaugh" ID="{0A1FE8B0-FA47-44FD-928B-D0930AFBEFFF}" ShortID="7010901">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
@@ -690,7 +1219,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="01-Amb_TeddyLaugh" ID="{67653B1A-9211-4745-AD7C-DFBBA04CC8EB}">
+								<AudioFileSource Name="01-Amb_TeddyLaugh" ID="{AFFDDC11-B1FC-4131-AD49-22F3759361AF}">
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_TeddyLaugh.wav</AudioFile>
 									<MediaIDList>
@@ -699,7 +1228,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="01-Amb_TeddyLaugh" ID="{67653B1A-9211-4745-AD7C-DFBBA04CC8EB}" Platform="Linked"/>
+								<ActiveSource Name="01-Amb_TeddyLaugh" ID="{AFFDDC11-B1FC-4131-AD49-22F3759361AF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

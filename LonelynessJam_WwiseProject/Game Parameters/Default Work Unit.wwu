@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ABE06D2C-E888-4FA0-829F-90E841B4E5D1}" SchemaVersion="133">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{ABE06D2C-E888-4FA0-829F-90E841B4E5D1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ABE06D2C-E888-4FA0-829F-90E841B4E5D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Amb_Rand_Volume" ID="{255DCE05-C2AE-4409-80CE-212A65F86038}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

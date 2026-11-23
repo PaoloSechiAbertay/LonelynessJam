@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
 
     public Wallet wallet;
 
+    public AK.Wwise.Event tokenPaid;
+    public AK.Wwise.Event tokenDeclined;
+    public AK.Wwise.Event messagePopup;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
@@ -114,20 +118,31 @@ public class PlayerController : MonoBehaviour
 
     public void testPlayer()
     {
-        if (nextHoverObject.parent.name == "playerTest" && Input.GetMouseButtonDown(0))
+        if (nextHoverObject.parent.name == "playerTest" && Input.GetMouseButtonDown(0) && wallet.walletTotal != 0)
         {
-            Debug.Log("meow");
             spawnPlayerText();
+            wallet.walletTotal -= 1;
+            tokenPaid.Post(gameObject);
+        }
+        else if (nextHoverObject.parent.name == "playerTest" && Input.GetMouseButtonDown(0) && wallet.walletTotal == 0)
+        {
+            tokenDeclined.Post(gameObject);
         }
     }
 
     public void payToken()
     {
-        if (nextHoverObject.parent.name == "PayToken" && Input.GetMouseButtonDown(0))
+        if (nextHoverObject.parent.name == "PayToken" && Input.GetMouseButtonDown(0) && wallet.walletTotal != 0)
         {
             wallet.walletTotal -= 1;
 
             spawnAiText();
+            tokenPaid.Post(gameObject);
+
+        }
+        else if (nextHoverObject.parent.name == "PayToken" && Input.GetMouseButtonDown(0) && wallet.walletTotal == 0)
+        {
+            tokenDeclined.Post(gameObject);
         }
     }
 
@@ -178,6 +193,7 @@ public class PlayerController : MonoBehaviour
 
 
             Object textBubblePopup = Instantiate(textBubble, new Vector3(-0.931f, (-6), -4.2f), Quaternion.identity);
+            messagePopup.Post(gameObject);
 
         }
     }
@@ -206,9 +222,8 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("destroyed");
             }
 
-
-
             Object textBubblePopup = Instantiate(playerTextBubble, new Vector3(2.9f, (-6), -4.2f), Quaternion.identity);
+            messagePopup.Post(gameObject);
 
         }
     }

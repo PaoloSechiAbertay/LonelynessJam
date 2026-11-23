@@ -5,13 +5,33 @@
 			<ChildrenList>
 				<SoundBank Name="meow" ID="{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_Teddy_01" ID="{E7A84805-F1E3-4065-9969-61E4C84952B7}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell SFX" ID="{E36C65C0-A05E-4188-A69F-CDBEC796FB20}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Mirror_01" ID="{52256126-3FBB-41EB-BC46-C543C116AE60}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ui" ID="{E8C2921A-F10B-424B-9776-E7CDD2151B7B}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ai Chat" ID="{E16F17F7-A403-4278-9C2F-010FCC002481}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sell SFX" ID="{EC7DEE28-B751-4451-8BED-C26D5D0B8438}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Film_01" ID="{D35FEE46-FE8E-4476-AAD4-EFC71BBDABDD}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{B1FDD0B2-CEB0-448B-B13F-E13DEDEDE5EA}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_BaseTone" ID="{38D6D27E-4657-44FB-8822-3A2C7AE2B28B}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Sport" ID="{73B9102C-ECD1-45CA-B8E4-41E2CABD2FCC}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Teddy" ID="{81973686-10B8-46A7-9428-6EAB217CA8BA}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Photo_01" ID="{BA7E44B0-EB54-4773-A54B-FF8D46BCB491}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Photo" ID="{C91AFCDA-97B0-480C-A5B9-455ED91D83A1}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test" ID="{4A448A5A-6391-481F-9E06-7DFB692E6D36}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Rand" ID="{ADEB9494-94BA-484B-9EE4-9B9031A8C718}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{EB5E3A88-631B-48A5-BF4E-004C4E166E42}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Declune" ID="{16DA0E25-41E9-48E2-9501-B290DB17970D}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Diary_01" ID="{F81AAD33-6A4A-49A2-83FF-91C3D76F58B2}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Film" ID="{9D5A1E2F-8953-4A4C-9927-A55CCE3730CF}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Sport_01" ID="{37654136-CC63-4AF2-84CD-F88945D2A058}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Accept" ID="{DE64305E-A82D-4C15-AAD0-F26C340D527E}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Diary" ID="{94A5E4E6-EE2F-4CFC-8C61-110CD67D5997}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Message" ID="{2B4137F9-128D-4D26-A697-97DB51511C9B}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient" ID="{5BE9DF88-7C20-4D51-B019-D5D72EEDECC7}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test" ID="{5DD24FBD-1C20-4E01-9444-47933E491B26}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{332F1138-7718-4F1E-BAF6-6C5002DFD955}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sell_Mirror" ID="{3F565C19-63C7-4F20-AEFB-5969EC952E28}" WorkUnitID="{E29385B2-F81F-4928-81A6-5C6A82CD2D2A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PhoneText" ID="{7D49D403-D2BB-4F6D-986B-1334C760BB89}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

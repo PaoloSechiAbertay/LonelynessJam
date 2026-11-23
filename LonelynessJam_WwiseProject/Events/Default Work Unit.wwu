@@ -14,6 +14,205 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Ambient" ID="{5BE9DF88-7C20-4D51-B019-D5D72EEDECC7}" ShortID="298242437">
+					<ChildrenList>
+						<Event Name="Amb_BaseTone" ID="{38D6D27E-4657-44FB-8822-3A2C7AE2B28B}">
+							<ChildrenList>
+								<Action Name="" ID="{1853B4A2-3A87-4F01-AB7E-91427611D1E9}" ShortID="194645555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_BaseTone" ID="{271F0239-5C21-453C-9B96-FD53F282E635}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Diary_01" ID="{F81AAD33-6A4A-49A2-83FF-91C3D76F58B2}">
+							<ChildrenList>
+								<Action Name="" ID="{9C87BC84-6742-4EAC-AE7B-06AA8739ACA4}" ShortID="470465713">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_PageRusttle" ID="{B9C8EAD7-8233-48C9-BFC3-205EFCD3FDC8}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Film_01" ID="{D35FEE46-FE8E-4476-AAD4-EFC71BBDABDD}">
+							<ChildrenList>
+								<Action Name="" ID="{5D107E3A-D5CC-4F70-A5D1-09B1343A5129}" ShortID="74159252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_PopCorn" ID="{F21E2EF6-E797-4DDA-8594-B1205E1A5C70}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Mirror_01" ID="{52256126-3FBB-41EB-BC46-C543C116AE60}">
+							<ChildrenList>
+								<Action Name="" ID="{AF998409-FA90-4345-8276-38955696E73E}" ShortID="317285116">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_MirrorTalk" ID="{83D65CAE-897B-4284-9D3D-E57B5BE90E17}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Photo_01" ID="{BA7E44B0-EB54-4773-A54B-FF8D46BCB491}">
+							<ChildrenList>
+								<Action Name="" ID="{B7F170C6-75D1-40CC-A473-F19648A2E9A5}" ShortID="999002760">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Family Outside" ID="{0F5A7A24-D1B1-484A-86B9-3B00BD4D2751}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Sport_01" ID="{37654136-CC63-4AF2-84CD-F88945D2A058}">
+							<ChildrenList>
+								<Action Name="" ID="{1414ED68-B331-420C-92E3-05FE428C53F9}" ShortID="729590186">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_SportWhistle" ID="{5B39A6C2-96D7-4B6F-B1EE-594CA67D8009}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Teddy_01" ID="{E7A84805-F1E3-4065-9969-61E4C84952B7}">
+							<ChildrenList>
+								<Action Name="" ID="{510E131A-B802-4874-B1C1-71B0E76B4CE4}" ShortID="757934385">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_TeddyLaugh" ID="{FA0CB362-C98B-485E-9C36-B58D776521FC}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Rand" ID="{ADEB9494-94BA-484B-9EE4-9B9031A8C718}">
+							<ChildrenList>
+								<Action Name="" ID="{B1D808D4-5894-4791-9B9D-A328E0981E3D}" ShortID="1020900287">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Rand" ID="{0A93D8C4-CE4A-40D8-8EF6-AF5F3465733C}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sell SFX" ID="{E36C65C0-A05E-4188-A69F-CDBEC796FB20}" ShortID="188976542">
+					<ChildrenList>
+						<Event Name="Sell_Diary" ID="{94A5E4E6-EE2F-4CFC-8C61-110CD67D5997}">
+							<ChildrenList>
+								<Action Name="" ID="{3A0C030F-1886-4BF5-9784-FA3D23E134C2}" ShortID="618596501">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Diary" ID="{0F94E84A-0C94-418D-B81F-0C53234638C9}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sell_Film" ID="{9D5A1E2F-8953-4A4C-9927-A55CCE3730CF}">
+							<ChildrenList>
+								<Action Name="" ID="{26F482EF-4F09-4379-8C93-9DFD8820DF98}" ShortID="447581253">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Film" ID="{F8CC5C0F-9B4B-4E88-9637-C604EBD319F2}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sell_Mirror" ID="{3F565C19-63C7-4F20-AEFB-5969EC952E28}">
+							<ChildrenList>
+								<Action Name="" ID="{69A24CE1-287E-444F-9BA0-9179A89B4BA5}" ShortID="280011772">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Mirror" ID="{9697DE8F-4F37-4991-89F9-C7CB3FAB9536}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sell_Sport" ID="{73B9102C-ECD1-45CA-B8E4-41E2CABD2FCC}">
+							<ChildrenList>
+								<Action Name="" ID="{35A94718-C286-46F5-9474-87F39AB3C47F}" ShortID="432093245">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Sport" ID="{F8C60611-4307-4DD5-988B-3321F51D6515}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sell_Teddy" ID="{81973686-10B8-46A7-9428-6EAB217CA8BA}">
+							<ChildrenList>
+								<Action Name="" ID="{659B41B7-6B8D-46F4-82E4-D6555DAF5352}" ShortID="147192666">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Teddy" ID="{EE6DB6A8-7FE2-43B6-B4F0-FED6F52EF945}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sell_Photo" ID="{C91AFCDA-97B0-480C-A5B9-455ED91D83A1}">
+							<ChildrenList>
+								<Action Name="" ID="{E57ACABD-7845-49EF-8D9A-D8754F7F2203}" ShortID="7554842">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell Photo" ID="{D04189A7-DA00-4054-8837-A731043059ED}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{EB5E3A88-631B-48A5-BF4E-004C4E166E42}" ShortID="958257871">
+					<ChildrenList>
+						<Event Name="UI_Declune" ID="{16DA0E25-41E9-48E2-9501-B290DB17970D}">
+							<ChildrenList>
+								<Action Name="" ID="{3A79E341-2106-4650-8AA4-A811DD12A3A2}" ShortID="433209754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui_Decline" ID="{EC5F7EA8-A8CA-4399-A6F9-2C252C6A9CC4}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Accept" ID="{DE64305E-A82D-4C15-AAD0-F26C340D527E}">
+							<ChildrenList>
+								<Action Name="" ID="{3F076A03-0DB2-4CAB-BDC0-AA3B0B1478A9}" ShortID="758474183">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui_Accept" ID="{A02C4C84-9113-4A9C-955A-4D68BC4A17CE}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Message" ID="{2B4137F9-128D-4D26-A697-97DB51511C9B}">
+							<ChildrenList>
+								<Action Name="" ID="{DCDA1018-9BDC-4E4A-AFE4-102BC412E71D}" ShortID="782600202">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui_MessageClick" ID="{172B28DC-98A6-4033-9C42-F81A363EC144}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

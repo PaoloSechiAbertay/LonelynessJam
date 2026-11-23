@@ -2829,6 +2829,7 @@ GameObject:
   - component: {fileID: 1437722990}
   - component: {fileID: 1437722991}
   - component: {fileID: 1437722992}
+  - component: {fileID: 1437722993}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2888,6 +2889,18 @@ MonoBehaviour:
   textBubble: {fileID: 6102354787802184578, guid: 76903e74818f3014d946f2c5d728ffbd, type: 3}
   playerTextBubble: {fileID: 6102354787802184578, guid: 6e86840389426974c9a939bcda2c6cc9, type: 3}
   wallet: {fileID: 2010189892}
+  tokenPaid:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1393fce524ade634f97540a9be1d2c90, type: 2}
+  tokenDeclined:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ec29f5423a5e42845a683a8b193e300f, type: 2}
+  messagePopup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d5a14756968dd8448b600f6ae9a9152c, type: 2}
 --- !u!114 &1437722992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2902,6 +2915,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::hidePayToken
   wallet: {fileID: 2010189892}
   payToken: {fileID: 1388474050}
+  wwiseController: {fileID: 1437722993}
+--- !u!114 &1437722993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437722988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac91f237a69872448a1c2d8c55ef93a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WwiseController
+  backgroundAmb:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 641216f20d213ce4586ad42b34a686bb, type: 2}
+  Amb_MirrorTalk:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_TeddyLaugh:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_PageRustle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_PopCorn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_SportWhistle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_FamilyOutside:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Amb_Rand_Post:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ced01ebabfd529e48aaafb867f205bd9, type: 2}
+  Amb_Rand_Volume:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1d59e6dfdacf9724a932ccf0344dc589, type: 2}
 --- !u!1 &1727628487
 GameObject:
   m_ObjectHideFlags: 0

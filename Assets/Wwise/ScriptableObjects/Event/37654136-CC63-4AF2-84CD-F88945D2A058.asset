@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45abc2e933b69294c9e7fcc83454d201, type: 3}
+  m_Name: 37654136-CC63-4AF2-84CD-F88945D2A058
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Amb_Sport_01
+  id: 2291352294
+  guid: 37654136-CC63-4AF2-84CD-F88945D2A058
+  IsInUserDefinedSoundBank: 1

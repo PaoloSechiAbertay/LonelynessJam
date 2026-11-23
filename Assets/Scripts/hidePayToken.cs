@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class hidePayToken : MonoBehaviour
@@ -5,6 +6,8 @@ public class hidePayToken : MonoBehaviour
     public Wallet wallet;
 
     public GameObject payToken;
+
+    public WwiseController wwiseController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,11 +20,23 @@ public class hidePayToken : MonoBehaviour
     {
         if (wallet.walletTotal == 0)
         {
-            payToken.SetActive(false);
+            //wwise sound
         }
         else
         {
-            payToken.SetActive(true);
+            //other wwise sounds
         }
+
+        ifNoSellablesThenNoAmb();
+        
+    }
+
+    public void ifNoSellablesThenNoAmb()
+    {
+
+        GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Sellable");
+        Debug.Log(gameObjectArray.Length);
+        wwiseController.Amb_Rand_Volume.SetGlobalValue(gameObjectArray.Length);
+        
     }
 }

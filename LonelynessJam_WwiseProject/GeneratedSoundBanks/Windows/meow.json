@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{F1AD8707-CAB4-3D23-F625-2CF037B5EF39}",
+    "Hash": "{2357453B-41A2-4E9A-DB64-A5FDD82D0609}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "03-Ui_Decline.wav",
-      "CachePath": "C4/{C4F327AF-410D-6563-84F7-5E199A8B7A3A}.wem"
+      "CachePath": "24/{2409B01E-3A61-53A1-A6AC-1B73BA43AC5F}.wem"
      },
      {
       "Id": "30253505",
@@ -32,12 +32,20 @@
       "CachePath": "69/{693CE716-9090-C383-28A6-9B715C2334A2}.wem"
      },
      {
+      "Id": "47448260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_SportWhistle.wav",
+      "CachePath": "54/{54AFEC40-204E-5CFE-BDAD-6E46D1D2EA9F}.wem"
+     },
+     {
       "Id": "97895705",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_SportWhistle.wav",
-      "CachePath": "0F/{0FFF0350-4BB3-4129-E9A4-86845C674A2C}.wem"
+      "CachePath": "DD/{DD605ACD-082E-AEBB-8188-DF523F9FB972}.wem"
      },
      {
       "Id": "106912783",
@@ -53,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_Family Outside.wav",
-      "CachePath": "72/{72851BC3-577A-2895-A62E-7ACC65E38F6C}.wem"
+      "CachePath": "A5/{A5C1E494-F7CA-ACA7-9171-0AB48B83F752}.wem"
      },
      {
       "Id": "147512207",
@@ -117,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "03-Ui_Accept.wav",
-      "CachePath": "24/{24F12215-71A0-DABD-0EA3-F6AC11ABD40B}.wem"
+      "CachePath": "1E/{1E91F8BA-AB90-9FAB-5757-49D20114B313}.wem"
      },
      {
       "Id": "360435552",
@@ -125,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_PopCorn.wav",
-      "CachePath": "27/{275E35FE-0342-D50F-B6AF-C4FE56785A56}.wem"
+      "CachePath": "81/{818E1832-8FF9-7AA5-E446-237E721EB004}.wem"
      },
      {
       "Id": "381838736",
@@ -133,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_TeddyLaugh.wav",
-      "CachePath": "37/{37808BFE-429C-E881-1983-586E38C283D4}.wem"
+      "CachePath": "E5/{E57DFB22-CB90-A7D5-D6C8-00C24B436628}.wem"
      },
      {
       "Id": "393992881",
@@ -152,12 +160,28 @@
       "CachePath": "72/{7234E050-603D-FACA-85A1-1AD85144C936}.wem"
      },
      {
+      "Id": "538237206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_MirrorTalk.wav",
+      "CachePath": "A1/{A1402906-795B-C8D1-5EA9-B6105B13C9DF}.wem"
+     },
+     {
       "Id": "603908434",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_BaseTone.wav",
-      "CachePath": "70/{703E2500-9666-80C7-6021-FD130878F427}.wem"
+      "CachePath": "21/{21CC32D1-908E-653C-6375-4AE69ABBE61E}.wem"
+     },
+     {
+      "Id": "610187034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_PageRusttle.wav",
+      "CachePath": "55/{5540719B-B9F9-FDBD-33F1-F00A95E64602}.wem"
      },
      {
       "Id": "612420998",
@@ -168,12 +192,28 @@
       "CachePath": "DE/{DE4BFE92-8826-822C-BC4B-54A1F4CED296}.wem"
      },
      {
+      "Id": "721285916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_TeddyLaugh.wav",
+      "CachePath": "3A/{3A086FFE-DAFF-701D-A6C0-AC4B91C83325}.wem"
+     },
+     {
       "Id": "764482788",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_PageRusttle.wav",
-      "CachePath": "B4/{B462056D-741E-C96E-14F3-8DB34B76144D}.wem"
+      "CachePath": "0A/{0AB167D6-E7D3-31BF-5ECB-BA71CF9896E4}.wem"
+     },
+     {
+      "Id": "803829793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_PopCorn.wav",
+      "CachePath": "AC/{AC9A37AA-5DF6-764A-7535-0262ABA79D3D}.wem"
      },
      {
       "Id": "879741130",
@@ -181,7 +221,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_MirrorTalk.wav",
-      "CachePath": "8A/{8A6785E6-9C8F-D4EB-F708-DFAE00B56B5C}.wem"
+      "CachePath": "7E/{7E40FD30-A540-1389-F01C-1D4991AC97CA}.wem"
+     },
+     {
+      "Id": "916881854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "01-Amb_Family Outside.wav",
+      "CachePath": "01/{01BBEC40-3D24-EE41-D7C2-002038A73451}.wem"
      },
      {
       "Id": "1042971780",
@@ -202,6 +250,215 @@
     ],
     "Events": [
      {
+      "Id": "1962350885",
+      "Name": "Amb_BaseTone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_BaseTone",
+      "GUID": "{38D6D27E-4657-44FB-8822-3A2C7AE2B28B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "603908434"
+       }
+      ]
+     },
+     {
+      "Id": "833338551",
+      "Name": "Amb_Diary_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Diary_01",
+      "GUID": "{F81AAD33-6A4A-49A2-83FF-91C3D76F58B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.633825",
+      "DurationMax": "6.633825",
+      "MediaRefs": [
+       {
+        "Id": "610187034"
+       }
+      ]
+     },
+     {
+      "Id": "3287991894",
+      "Name": "Amb_Film_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Film_01",
+      "GUID": "{D35FEE46-FE8E-4476-AAD4-EFC71BBDABDD}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.4309454",
+      "DurationMax": "7.4309454",
+      "MediaRefs": [
+       {
+        "Id": "803829793"
+       }
+      ]
+     },
+     {
+      "Id": "1374237279",
+      "Name": "Amb_Mirror_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Mirror_01",
+      "GUID": "{52256126-3FBB-41EB-BC46-C543C116AE60}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.320029",
+      "DurationMax": "7.320029",
+      "MediaRefs": [
+       {
+        "Id": "538237206"
+       }
+      ]
+     },
+     {
+      "Id": "2024522848",
+      "Name": "Amb_Photo_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Photo_01",
+      "GUID": "{BA7E44B0-EB54-4773-A54B-FF8D46BCB491}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.395421",
+      "DurationMax": "7.395421",
+      "MediaRefs": [
+       {
+        "Id": "916881854"
+       }
+      ]
+     },
+     {
+      "Id": "3218153607",
+      "Name": "Amb_Rand",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Rand",
+      "GUID": "{ADEB9494-94BA-484B-9EE4-9B9031A8C718}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09365",
+      "DurationMax": "7.478348",
+      "MediaRefs": [
+       {
+        "Id": "47448260"
+       },
+       {
+        "Id": "538237206"
+       },
+       {
+        "Id": "610187034"
+       },
+       {
+        "Id": "721285916"
+       },
+       {
+        "Id": "803829793"
+       },
+       {
+        "Id": "916881854"
+       }
+      ]
+     },
+     {
+      "Id": "2291352294",
+      "Name": "Amb_Sport_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Sport_01",
+      "GUID": "{37654136-CC63-4AF2-84CD-F88945D2A058}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09365",
+      "DurationMax": "3.09365",
+      "MediaRefs": [
+       {
+        "Id": "47448260"
+       }
+      ]
+     },
+     {
+      "Id": "4080984462",
+      "Name": "Amb_Teddy_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Amb_Teddy_01",
+      "GUID": "{E7A84805-F1E3-4065-9969-61E4C84952B7}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.478348",
+      "DurationMax": "7.478348",
+      "MediaRefs": [
+       {
+        "Id": "721285916"
+       }
+      ]
+     },
+     {
+      "Id": "1066837341",
+      "Name": "Sell_Diary",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Diary",
+      "GUID": "{94A5E4E6-EE2F-4CFC-8C61-110CD67D5997}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2454876",
+      "DurationMax": "1.2454876",
+      "MediaRefs": [
+       {
+        "Id": "612420998"
+       }
+      ]
+     },
+     {
+      "Id": "2352105390",
+      "Name": "Sell_Film",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Film",
+      "GUID": "{9D5A1E2F-8953-4A4C-9927-A55CCE3730CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6075737",
+      "DurationMax": "3.6075737",
+      "MediaRefs": [
+       {
+        "Id": "147512207"
+       }
+      ]
+     },
+     {
+      "Id": "470741613",
+      "Name": "Sell_Mirror",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Mirror",
+      "GUID": "{3F565C19-63C7-4F20-AEFB-5969EC952E28}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0220408",
+      "DurationMax": "1.0220408",
+      "MediaRefs": [
+       {
+        "Id": "393992881"
+       }
+      ]
+     },
+     {
+      "Id": "3341752616",
+      "Name": "Sell_Photo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Photo",
+      "GUID": "{C91AFCDA-97B0-480C-A5B9-455ED91D83A1}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.8094332",
+      "DurationMax": "3.8094332",
+      "MediaRefs": [
+       {
+        "Id": "106912783"
+       }
+      ]
+     },
+     {
+      "Id": "108378706",
+      "Name": "Sell_Sport",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Sport",
+      "GUID": "{73B9102C-ECD1-45CA-B8E4-41E2CABD2FCC}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.0041723",
+      "DurationMax": "4.0041723",
+      "MediaRefs": [
+       {
+        "Id": "1042971780"
+       }
+      ]
+     },
+     {
+      "Id": "4044047510",
+      "Name": "Sell_Teddy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Teddy",
+      "GUID": "{81973686-10B8-46A7-9428-6EAB217CA8BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8635601",
+      "DurationMax": "0.8635601",
+      "MediaRefs": [
+       {
+        "Id": "295577522"
+       }
+      ]
+     },
+     {
       "Id": "3157003241",
       "Name": "Test",
       "ObjectPath": "\\Events\\Default Work Unit\\Test",
@@ -214,10 +471,60 @@
         "Id": "273784619"
        }
       ]
+     },
+     {
+      "Id": "3367304250",
+      "Name": "UI_Accept",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Accept",
+      "GUID": "{DE64305E-A82D-4C15-AAD0-F26C340D527E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14136761",
+      "DurationMax": "0.14977378",
+      "MediaRefs": [
+       {
+        "Id": "7225121"
+       }
+      ]
+     },
+     {
+      "Id": "2008173336",
+      "Name": "UI_Declune",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Declune",
+      "GUID": "{16DA0E25-41E9-48E2-9501-B290DB17970D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22370239",
+      "DurationMax": "0.23700443",
+      "MediaRefs": [
+       {
+        "Id": "341165722"
+       }
+      ]
+     },
+     {
+      "Id": "2501126191",
+      "Name": "UI_Message",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Message",
+      "GUID": "{2B4137F9-128D-4D26-A697-97DB51511C9B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.060566895",
+      "DurationMax": "0.060566895",
+      "MediaRefs": [
+       {
+        "Id": "1061118261"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "430538128",
+      "Name": "Amb_Rand_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Amb_Rand_Volume",
+      "GUID": "{255DCE05-C2AE-4409-80CE-212A65F86038}"
      }
     ]
    }
   ],
-  "FileHash": "{954A5408-523B-286E-4300-8075FCE79F5C}"
+  "FileHash": "{A1957B6C-B816-9D32-E90A-19DD839FEBE4}"
  }
 }
