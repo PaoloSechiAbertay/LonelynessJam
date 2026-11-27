@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{ACBB8233-EA3F-AD9B-EC5E-253C3D143E62}",
+    "Hash": "{F027AFE5-F571-EC31-89F0-5DAC2220BAA1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_SportWhistle.wav",
-      "CachePath": "DD/{DD605ACD-082E-AEBB-8188-DF523F9FB972}.wem"
+      "CachePath": "03/{03BB397B-A9B0-87B8-553F-06691EAEC89F}.wem"
      },
      {
       "Id": "106912783",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_Family Outside.wav",
-      "CachePath": "A5/{A5C1E494-F7CA-ACA7-9171-0AB48B83F752}.wem"
+      "CachePath": "2C/{2C1F7D99-30D3-F92E-0A32-22DFAC02C0BF}.wem"
      },
      {
       "Id": "147512207",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_PopCorn.wav",
-      "CachePath": "81/{818E1832-8FF9-7AA5-E446-237E721EB004}.wem"
+      "CachePath": "2D/{2DDE4126-C865-F38A-4DD1-C5FF1F8ADF62}.wem"
      },
      {
       "Id": "381838736",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_TeddyLaugh.wav",
-      "CachePath": "E5/{E57DFB22-CB90-A7D5-D6C8-00C24B436628}.wem"
+      "CachePath": "39/{39F49035-B79F-0681-93C8-F19B74552133}.wem"
      },
      {
       "Id": "393992881",
@@ -213,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_PageRusttle.wav",
-      "CachePath": "0A/{0AB167D6-E7D3-31BF-5ECB-BA71CF9896E4}.wem"
+      "CachePath": "16/{1694B998-2EB2-CE0F-5C19-DADCB992B8B2}.wem"
      },
      {
       "Id": "803829793",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "01-Amb_MirrorTalk.wav",
-      "CachePath": "7E/{7E40FD30-A540-1389-F01C-1D4991AC97CA}.wem"
+      "CachePath": "24/{245C3254-533E-078D-EC46-D76A1C2B6596}.wem"
      },
      {
       "Id": "916881854",
@@ -528,8 +528,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Message",
       "GUID": "{2B4137F9-128D-4D26-A697-97DB51511C9B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.060566895",
-      "DurationMax": "0.060566895",
+      "DurationMin": "0.24226758",
+      "DurationMax": "0.24226758",
       "MediaRefs": [
        {
         "Id": "1061118261"
@@ -547,6 +547,6 @@
     ]
    }
   ],
-  "FileHash": "{E0521CC3-784E-B3CD-80BE-A8C83818C5B1}"
+  "FileHash": "{430A1854-497F-28E5-4749-399B1243EAAE}"
  }
 }

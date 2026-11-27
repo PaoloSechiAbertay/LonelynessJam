@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{26517144-2BBD-46B6-9366-E09B369F2814}" SchemaVersion="133">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{26517144-2BBD-46B6-9366-E09B369F2814}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{26517144-2BBD-46B6-9366-E09B369F2814}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Bark" ID="{A398895C-8B98-43D5-A238-6FA1A8DA9F42}">
+					<ObjectList>
+						<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+						<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+						<ObjectRef Name="Dialouge" ID="{F433797C-4826-435E-B196-5795447290B7}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+						<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+						<ObjectRef Name="Music" ID="{7C15896B-B465-4E5C-ADCC-AD6D79F45ED4}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+						<ObjectRef Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

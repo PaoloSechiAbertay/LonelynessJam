@@ -1,5 +1,10 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Main Audio Bus\Ambient	
+	702482391	Game			\Default Work Unit\Main Audio Bus\Game	
+	1551306167	Ui			\Default Work Unit\Main Audio Bus\Ui	
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	3362655095	Dialouge			\Default Work Unit\Main Audio Bus\Dialouge	
+	3991942870	Music			\Default Work Unit\Main Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

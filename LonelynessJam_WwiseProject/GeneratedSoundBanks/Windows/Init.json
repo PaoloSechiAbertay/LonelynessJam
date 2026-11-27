@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{17DA18C7-4BC6-A2A0-1B26-202E4EA61CD1}",
+    "Hash": "{FAFC6611-F8AE-04BD-0293-D74A157C3AAA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,10 +36,44 @@
     },
     "Busses": [
      {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ambient",
+      "GUID": "{2878FC59-629E-4E9E-A9A2-ACE573666524}",
+      "Color": "11"
+     },
+     {
+      "Id": "702482391",
+      "Name": "Game",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Game",
+      "GUID": "{17969F35-6271-405F-B16B-01AB09764E4E}",
+      "Color": "1"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "Ui",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ui",
+      "GUID": "{E4685942-DBA9-4649-98EC-EE88791535BB}"
+     },
+     {
       "Id": "2246998526",
       "Name": "Main Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3362655095",
+      "Name": "Dialouge",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Dialouge",
+      "GUID": "{F433797C-4826-435E-B196-5795447290B7}",
+      "Color": "9"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Music",
+      "GUID": "{7C15896B-B465-4E5C-ADCC-AD6D79F45ED4}",
+      "Color": "20"
      }
     ],
     "GameParameters": [
@@ -52,6 +86,6 @@
     ]
    }
   ],
-  "FileHash": "{048F9705-6B78-137E-3ADA-F09593ED32D8}"
+  "FileHash": "{BADE6179-8735-A476-19E2-535706F82DD4}"
  }
 }
