@@ -21,7 +21,15 @@
 								</Property>
 							</PropertyList>
 						</Bus>
-						<Bus Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}"/>
+						<Bus Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>

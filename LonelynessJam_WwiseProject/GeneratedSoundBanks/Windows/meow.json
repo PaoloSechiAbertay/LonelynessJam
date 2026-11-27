@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{333660B0-1150-22E6-EB16-6CED5B73E1E8}",
+    "Hash": "{B15C4FB8-CBED-F986-D04C-8DFC12F9004F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
@@ -528,8 +528,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Message",
       "GUID": "{2B4137F9-128D-4D26-A697-97DB51511C9B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.060566895",
-      "DurationMax": "0.060566895",
+      "DurationMin": "0.24226758",
+      "DurationMax": "0.24226758",
       "MediaRefs": [
        {
         "Id": "1061118261"
@@ -547,6 +547,6 @@
     ]
    }
   ],
-  "FileHash": "{EBBFBD2E-E530-DC59-32B8-FDE769D87CB5}"
+  "FileHash": "{41C7B971-F1A2-E1BF-4E0F-E302F51709A3}"
  }
 }

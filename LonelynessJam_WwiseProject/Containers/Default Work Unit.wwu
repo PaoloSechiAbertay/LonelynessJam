@@ -596,6 +596,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ui_MessageClick" ID="{172B28DC-98A6-4033-9C42-F81A363EC144}" ShortID="1023628973">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
