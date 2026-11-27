@@ -213,6 +213,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Woosh" ID="{9484F59F-D831-45D2-B194-264D66EC820B}">
+					<ChildrenList>
+						<Action Name="" ID="{8A86025C-4037-4E2D-8504-9E0B4ACB3BA8}" ShortID="648144594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh" ID="{720A20AB-6AC4-4696-97DB-85EE3A3F7E2C}" WorkUnitID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

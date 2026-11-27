@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID AMB_RAND = 3218153607U;
         static const AkUniqueID AMB_SPORT_01 = 2291352294U;
         static const AkUniqueID AMB_TEDDY_01 = 4080984462U;
+        static const AkUniqueID PLAY_WOOSH = 1725216094U;
         static const AkUniqueID SELL_DIARY = 1066837341U;
         static const AkUniqueID SELL_FILM = 2352105390U;
         static const AkUniqueID SELL_MIRROR = 470741613U;

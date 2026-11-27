@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	833338551	Amb_Diary_01			\Default Work Unit\Ambient\Amb_Diary_01	
 	1066837341	Sell_Diary			\Default Work Unit\Sell SFX\Sell_Diary	
 	1374237279	Amb_Mirror_01			\Default Work Unit\Ambient\Amb_Mirror_01	
+	1725216094	Play_Woosh			\Default Work Unit\Play_Woosh	
 	1962350885	Amb_BaseTone			\Default Work Unit\Ambient\Amb_BaseTone	
 	2008173336	UI_Declune			\Default Work Unit\UI\UI_Declune	
 	2024522848	Amb_Photo_01			\Default Work Unit\Ambient\Amb_Photo_01	
@@ -41,6 +42,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	393992881	Sell Mirror	.cache\8D\{8DD7F9D9-6322-077F-F735-BA6E1714A9A4}.wem		\Containers\Default Work Unit\Sell SFX\Sell Mirror		90240
 	432217338	Ai Chat-005	.cache\72\{7234E050-603D-FACA-85A1-1AD85144C936}.wem		\Containers\Default Work Unit\Ai Chat\Ai Chat-005		9316
 	538237206	Amb_MirrorTalk	.cache\A1\{A1402906-795B-C8D1-5EA9-B6105B13C9DF}.wem		\Containers\Default Work Unit\Ambient\Amb_Rand\Amb_MirrorTalk		645722
+	594144501	Woosh	.cache\79\{799F5CE3-DADF-B536-1DD5-CCB1F97B8FBE}.wem		\Containers\Default Work Unit\Woosh		8952
 	603908434	Amb_BaseTone	.cache\21\{21CC32D1-908E-653C-6375-4AE69ABBE61E}.wem		\Containers\Default Work Unit\Ambient\Amb_BaseTone		3704616
 	610187034	Amb_PageRusttle	.cache\55\{5540719B-B9F9-FDBD-33F1-F00A95E64602}.wem		\Containers\Default Work Unit\Ambient\Amb_Rand\Amb_PageRusttle		585200
 	612420998	Sell Diary	.cache\DE\{DE4BFE92-8826-822C-BC4B-54A1F4CED296}.wem		\Containers\Default Work Unit\Sell SFX\Sell Diary		109948
