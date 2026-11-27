@@ -4,12 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{467BFDEB-F9F0-4F2A-BE44-917B353B52DE}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Test" ID="{4A448A5A-6391-481F-9E06-7DFB692E6D36}" ShortID="118516677">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+							<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -26,12 +30,16 @@
 					</ActiveSourceList>
 				</Sound>
 				<MusicSwitchContainer Name="Music" ID="{B1FDD0B2-CEB0-448B-B13F-E13DEDEDE5EA}" ShortID="157512103">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+							<ObjectRef Name="Music" ID="{7C15896B-B465-4E5C-ADCC-AD6D79F45ED4}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>
@@ -182,6 +190,10 @@
 					</ChildrenList>
 				</MusicSwitchContainer>
 				<Folder Name="Sell SFX" ID="{EC7DEE28-B751-4451-8BED-C26D5D0B8438}" ShortID="587747431">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="Sell Diary" ID="{0F94E84A-0C94-418D-B81F-0C53234638C9}" ShortID="571239472">
 							<PropertyList>
@@ -204,7 +216,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -226,7 +238,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -248,7 +260,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -270,7 +282,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -292,7 +304,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -314,7 +326,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -334,6 +346,8 @@
 				</Folder>
 				<RandomSequenceContainer Name="Ai Chat" ID="{E16F17F7-A403-4278-9C2F-010FCC002481}" ShortID="56808107">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -353,7 +367,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+							<ObjectRef Name="Dialouge" ID="{F433797C-4826-435E-B196-5795447290B7}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -504,7 +518,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -558,7 +572,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -587,7 +601,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ui" ID="{E4685942-DBA9-4649-98EC-EE88791535BB}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -606,12 +620,16 @@
 					</ChildrenList>
 				</Folder>
 				<Sound Name="PhoneText" ID="{7D49D403-D2BB-4F6D-986B-1334C760BB89}" ShortID="364714816">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+							<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -628,6 +646,10 @@
 					</ActiveSourceList>
 				</Sound>
 				<Folder Name="Ambient" ID="{332F1138-7718-4F1E-BAF6-6C5002DFD955}" ShortID="657897049">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="Amb_BaseTone" ID="{271F0239-5C21-453C-9B96-FD53F282E635}" ShortID="682040617">
 							<PropertyList>
@@ -651,7 +673,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -688,7 +710,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1015,11 +1037,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_Family Outside" ID="{048E016D-6400-438F-A5B4-E3BB5AD2C02D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.46595"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.74234"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.44541"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.45097"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_Family Outside.wav</AudioFile>
 									<MediaIDList>
@@ -1053,11 +1082,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_MirrorTalk" ID="{DC0E2542-1697-45A2-80D9-8E92778F1CE5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.08093"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.27039"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.64467"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.92557"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_MirrorTalk.wav</AudioFile>
 									<MediaIDList>
@@ -1091,11 +1127,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_PageRusttle" ID="{FC7C2247-768F-4969-80C6-9A64818BCA18}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.24923"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.70152"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.49621"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.09778"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_PageRusttle.wav</AudioFile>
 									<MediaIDList>
@@ -1129,11 +1172,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_PopCorn" ID="{EE6B10C1-7A98-442E-9D5E-C707CB1CF32B}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.19393"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.82664"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.33063"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.36031"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_PopCorn.wav</AudioFile>
 									<MediaIDList>
@@ -1167,11 +1217,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_SportWhistle" ID="{D1FBEB06-397E-468A-A3A0-9FD9B77FA4DE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.6958"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.8094"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.1846"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.39365"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_SportWhistle.wav</AudioFile>
 									<MediaIDList>
@@ -1205,11 +1262,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+									<ObjectRef Name="Ambient" ID="{2878FC59-629E-4E9E-A9A2-ACE573666524}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="01-Amb_TeddyLaugh" ID="{AFFDDC11-B1FC-4131-AD49-22F3759361AF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.53901"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.15501"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.63526"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.98629"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>01-Amb_TeddyLaugh.wav</AudioFile>
 									<MediaIDList>
@@ -1225,6 +1289,8 @@
 				</Folder>
 				<Sound Name="Woosh" ID="{720A20AB-6AC4-4696-97DB-85EE3A3F7E2C}" ShortID="63604833">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -1244,7 +1310,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA47E545-4079-4C56-8BC6-5D74AC6AEFF5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
+							<ObjectRef Name="Game" ID="{17969F35-6271-405F-B16B-01AB09764E4E}" WorkUnitID="{126EE676-5137-40C4-A567-5C50CC4624E8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
