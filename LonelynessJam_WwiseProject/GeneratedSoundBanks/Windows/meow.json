@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{B15C4FB8-CBED-F986-D04C-8DFC12F9004F}",
+    "Hash": "{F027AFE5-F571-EC31-89F0-5DAC2220BAA1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
@@ -547,6 +547,6 @@
     ]
    }
   ],
-  "FileHash": "{41C7B971-F1A2-E1BF-4E0F-E302F51709A3}"
+  "FileHash": "{BCC59EE0-3741-C29E-C154-B412ACF3DCE9}"
  }
 }
