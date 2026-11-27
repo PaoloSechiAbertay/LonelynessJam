@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F4C88F0-C7BC-4DE2-B422-DDB2E8F0DAAD}",
     "Language": "SFX",
-    "Hash": "{2357453B-41A2-4E9A-DB64-A5FDD82D0609}",
+    "Hash": "{ACBB8233-EA3F-AD9B-EC5E-253C3D143E62}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\meow",
     "ShortName": "meow",
     "Path": "meow.bnk",
@@ -166,6 +166,14 @@
       "Location": "Memory",
       "ShortName": "01-Amb_MirrorTalk.wav",
       "CachePath": "A1/{A1402906-795B-C8D1-5EA9-B6105B13C9DF}.wem"
+     },
+     {
+      "Id": "594144501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Woosh.wav",
+      "CachePath": "79/{799F5CE3-DADF-B536-1DD5-CCB1F97B8FBE}.wem"
      },
      {
       "Id": "603908434",
@@ -375,6 +383,20 @@
       ]
      },
      {
+      "Id": "1725216094",
+      "Name": "Play_Woosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Woosh",
+      "GUID": "{9484F59F-D831-45D2-B194-264D66EC820B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06898548",
+      "DurationMax": "0.14617515",
+      "MediaRefs": [
+       {
+        "Id": "594144501"
+       }
+      ]
+     },
+     {
       "Id": "1066837341",
       "Name": "Sell_Diary",
       "ObjectPath": "\\Events\\Default Work Unit\\Sell SFX\\Sell_Diary",
@@ -525,6 +547,6 @@
     ]
    }
   ],
-  "FileHash": "{A1957B6C-B816-9D32-E90A-19DD839FEBE4}"
+  "FileHash": "{991F0DB1-F84B-0879-60D7-894029840281}"
  }
 }
